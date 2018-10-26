@@ -1553,7 +1553,7 @@ Macro
   (demo 0.5 (sin-osc 440))  ;=> plays a sine wave for half a second
 #+end_example
 
-**** run
+**** run                                                                :run:
 #+BEGIN_SRC clojure :results output
 (doc run)
 #+END_SRC
@@ -5550,7 +5550,7 @@ overtone.live/play-buf
   Default rate: :ar
 #+end_example
 
-**** t-grains
+**** t-grains                                                       :tgrains:
 #+name: t-grains
 #+BEGIN_SRC clojure :results output
 (doc t-grains)
@@ -8209,7 +8209,7 @@ overtone.live/check-bad-values
   Default rate: :auto
 #+end_example
 
-**** poll
+**** poll                                                              :poll:
 #+BEGIN_SRC clojure :results output
 (doc poll)
 #+END_SRC
